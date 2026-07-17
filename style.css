@@ -1,0 +1,134 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Tajawal',sans-serif;
+}
+
+body{
+background:#f8f3ee;
+color:#444;
+line-height:1.8;
+}
+
+.hero{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,.35),rgba(0,0,0,.35)),url("gallery1.jpg");
+background-size:cover;
+background-position:center;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.overlay{
+max-width:700px;
+}
+
+.logo{
+width:130px;
+margin-bottom:20px;
+}
+
+.hero h1{
+font-size:55px;
+color:white;
+margin-bottom:15px;
+}
+
+.hero p{
+color:white;
+font-size:22px;
+margin-bottom:30px;
+}
+
+.buttons{
+display:flex;
+justify-content:center;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.btn,.btn2{
+padding:15px 35px;
+border-radius:50px;
+text-decoration:none;
+transition:.3s;
+font-size:18px;
+}
+
+.btn{
+background:#d8b4a0;
+color:white;
+}
+
+.btn:hover{
+background:#bf9883;
+}
+
+.btn2{
+background:white;
+color:#444;
+}
+
+section{
+padding:80px 10%;
+}
+
+section h2{
+font-size:38px;
+margin-bottom:30px;
+text-align:center;
+color:#8f6b57;
+}
+
+.about p,
+.pricing p,
+.contact p{
+max-width:800px;
+margin:auto;
+text-align:center;
+font-size:20px;
+}
+
+.images{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+}
+
+.images img{
+width:100%;
+border-radius:20px;
+transition:.4s;
+box-shadow:0 10px 25px rgba(0,0,0,.1);
+}
+
+.images img:hover{
+transform:scale(1.05);
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:40px;
+text-align:center;
+border-radius:20px;
+font-size:22px;
+box-shadow:0 10px 30px rgba(0,0,0,.08);
+}
+
+footer{
+background:#d8b4a0;
+padding:25px;
+text-align:center;
+color:white;
+margin-top:50px;
+}
